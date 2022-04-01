@@ -18,12 +18,18 @@
   "require": {
     "psr/log": "~1.0",
     "symfony/console": ">=3.2",
-    "mrjgreen/database": "~2.5",
+    "mrjgreen/database": "dev-patch-1",
     "symfony/debug": "~3.2",
     "ramsey/array_column": "~1.1"
   },
   "require-dev": {
     "satooshi/php-coveralls": "~1.0",
     "phpunit/phpunit": "~5.0"
-  }
+  },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/vjccruz/database"
+        }
+    ]
 }
